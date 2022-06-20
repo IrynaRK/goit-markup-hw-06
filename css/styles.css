@@ -593,11 +593,12 @@ a.current {
   letter-spacing: 0.06em;
 
   color: var(--first-color);
+
+  position: absolute;
+  transform: translate(50%);
 }
 .submit-icon {
   fill: var(--first-color);
-  position: absolute;
-  transform: translate(50%);
 }
 .main-portfolio .header-portfolio {
   background: var(--main-background);
