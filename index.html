@@ -431,26 +431,28 @@
         </div>
         <div class="footer-subscribe">
           <h2 class="footer-subscribe-title">Подпишитесь на рассылку</h2>
-          <label for="footer-subscribe-email" class="footer-subscribe-label"></label>
-          <input
-            type="email"
-            class="footer-subscribe-input"
-            name="user-mail"
-            id="footer-subscribe-label"
-            placeholder="E-mail"
-          />
-          <button type="submit" class="submit-footer-subscride-btn">
-            Подписаться<svg class="submit-icon" width="24" height="24">
-              <use href="./img/symbol-defs.svg#icon-icon-send"></use>
-            </svg>
-          </button>
+          <form class="footer-subscribe-form">
+            <label for="footer-subscribe-email" class="footer-subscribe-label"></label>
+            <input
+              type="email"
+              class="footer-subscribe-input"
+              name="user-mail"
+              id="footer-subscribe-label"
+              placeholder="E-mail"
+            />
+            <button type="submit" class="submit-footer-subscride-btn">
+              Подписаться<svg class="submit-icon" width="24" height="24">
+                <use href="./img/symbol-defs.svg#icon-icon-send"></use>
+              </svg>
+            </button>
+          </form>
         </div>
       </div>
     </footer>
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button type="button" class="modal-close-btn" data-modal-close>
-          <svg class="icon-close-black" width="11" height="11">
+          <svg class="icon-close-black" width="30" height="30">
             <use href="./img/symbol-defs.svg#icon-close-black"></use>
           </svg>
         </button>
@@ -499,7 +501,7 @@
               placeholder="Введите текст"
             ></textarea>
           </div>
-          <div class="modal-field">
+          <div class="modal-field modal-field-check">
             <input
               type="checkbox"
               name="privacy"
